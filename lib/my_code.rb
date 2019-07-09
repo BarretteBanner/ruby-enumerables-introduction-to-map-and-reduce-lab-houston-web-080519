@@ -76,7 +76,8 @@ def reduce_to_any_true(array)
   return is_it 
 end 
       
-
+def reduce_to_any_true(array)
+  
 
 
 
