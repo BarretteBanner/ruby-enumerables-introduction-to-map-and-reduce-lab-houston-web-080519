@@ -72,7 +72,7 @@ def reduce_to_any_true(array)
       
       is_it = true
     end
-    
+    counter += 1 
   end
   return is_it 
 end 
