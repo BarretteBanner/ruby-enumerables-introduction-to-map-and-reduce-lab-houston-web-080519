@@ -69,9 +69,10 @@ def reduce_to_any_true(array)
   while counter < array.length do
     if !!array[counter] == true
       new_array += array[counter]
-      counter += 1 
+      
       is_it = true
     end
+    
   end
   return is_it 
 end 
